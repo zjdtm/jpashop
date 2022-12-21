@@ -15,7 +15,7 @@ import static jakarta.persistence.CascadeType.ALL;
 import static jakarta.persistence.FetchType.LAZY;
 
 @Entity
-@Table(name = "ORDERS")
+@Table(name = "orders")
 @Getter
 @Setter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
